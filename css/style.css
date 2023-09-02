@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz@10..48&display=swap");
+
+/*RESETEO GENERAL DE LA PAGINA*/
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+/*BODY FUENTE DE LA LETRA Y COLOR DEL FONDO*/
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.borderColor2 {
+  border: solid 5px rgb(42, 42, 175);
+  border-radius: 4px;
+}
+
+/*BARRA DE NAVEGACION EN TODAS LAS PAGINAS*/
+/*LA BARRA DE NAVEGACIÓN*/
+.navbarLogo {
+  width: 100px;
+  height: 70px;
+}
+
+.navbarFuente {
+  font-family: "Poppins", sans-serif;
+  text-shadow: 0em 0.1em #dad8d8;
+  font-weight: bold;
+  font-size: 19px;
+}
+
+/*ACA EMPIEZA EL CSS DE LA PAGINA PRINCIPAL*/
+/*TEXTO PRINCIPAL DE TODAS LAS PAGINAS*/
+.textoPrincipal {
+  text-shadow: 0em 0.1em #4b4949;
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  font-size: large;
+  width: 100%;
+}
+
+/*Imagen principal en todas las paginas.*/
+.imagenPrincipal {
+  max-width: 100%;
+}
+
+.fuenteCalzadoDest {
+  font-size: 50px;
+  text-align: center;
+  font-weight: bolder;
+  color: white;
+  font-family: "Bricolage Grotesque", sans-serif;
+  border: 9px solid black;
+}
+
+.colorTextCarrousel {
+  color: rgb(255, 255, 255);
+}
+
+.colorNike {
+  color: #ffffff;
+}
+
+/*estilo de las cartas*/
+.cardStyle {
+  font-family: "Poppins", sans-serif;
+  text-shadow: 0em 0.1em #dad8d8;
+  font-weight: 500;
+  color: black;
+}
+
+/*Este border es el border de todas las imagenes de zapatillas.*/
+.borderColor {
+  border: groove 5px rgb(35, 35, 112);
+}
+
+/*Estilo de la fuente de "contacto en pagina index*/
+
+.contactoStyle {
+  font-family: "Poppins", sans-serif;
+  text-shadow: 0em 0.2em #dad8d8;
+  font-weight: 500;
+  color: black;
+}
+
+/* columna para celulares */
+breakpoint {
+  max-width: 100%;
+  display: inline-block;
+}
+
+/* columnas para tablets */
+@media (min-width: 420px) {
+  breakpoint {
+    max-width: 48%;
+  }
+}
+
+/* columnas para pantallas mas grandes*/
+@media (min-width: 760px) {
+  breakpoint {
+    max-width: 24%;
+  }
+}
+
+/*SECCION DE LOS SNEAKERS DESTACADOS EN LA PAGINA PRINCIPAL*/
+.sneakersDest {
+  text-shadow: 0em 0.2em #dad8d8;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+  align-items: center;
+  color: black;
+}
+
+/*IMAGEN QUE TIENE UN TEXTO ADELANTE "QUIENES SOMOS EN INDEXHTML"*/
+#nosotrosImg {
+  width: 1200px;
+  height: 300px;
+  margin-left: 170px;
+  margin-top: 20px;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+.altoNosotros {
+  width: 350px;
+}
+
+/*css de la seccion quienes somos en la pagina principal*/
+.quienesSomos {
+  text-shadow: 0em 0.1em #dad8d8;
+  margin-top: 50px;
+  text-align: center;
+}
+
+/*ACA TERMINA EL CSS DE LA PAGINA PRINCIPAL*/
+
+/*ACA EMPIEZA EL CSS DE LA PAGINA CONTACTO*/
+
+.dudaContacto {
+  font-size: 20px;
+}
+
+/*ACA TERMINA EL CSS DE LA PAGINA "CONTACTO"*/
+
+/*ACA EMPIEZA EL CSS DE LA PAGINA "NOSOTROS" */
+
+.colorQuienes {
+  color: rgb(95, 30, 157);
+  font-weight: bold;
+  text-shadow: 0em 0.1em #dad8d8;
+}
+
+.nosotrosAbout {
+  text-shadow: 0em 0.1em #dad8d8;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+/*Aca empieza el css de la pagina "SNEAKERS"*/
+
+.sneakersPage {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  margin-bottom: 20px;
+  margin-left: 70px;
+}
+
+/*Aca termina el css de la pagina "SNEAKERS"*/
+
+/*Aca empieza el css de la pagina de "LOCALES"*/
+
+#baukerCapital {
+  margin-top: 20px;
+  font-size: 40px;
+  font-weight: bold;
+  text-shadow: 0em 0.1em #dad8d8;
+}
+
+/*Aca termina el css de la pagina "LOCALES"*/
