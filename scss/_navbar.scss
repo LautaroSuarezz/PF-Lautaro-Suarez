@@ -1,0 +1,17 @@
+//navbar estilo. 
+
+/*estilo de la navbar*/
+/*logo de la navbar*/
+.navbarLogo{
+    width: 100px;
+    height: 70px;
+}
+
+/*fuente de la navbar*/
+.navbarFuente{
+    font-family: $fontPrincipal;
+    text-shadow: 0em 0.1em #dad8d8;
+    font-weight: $fontBold;
+    font-size: 20px;
+}
+

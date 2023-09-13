@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz@10..48&display=swap");
+/*estilo de la navbar*/
+/*logo de la navbar*/
+.navbarLogo {
+  width: 100px;
+  height: 70px;
+}
+
+/*fuente de la navbar*/
+.navbarFuente {
+  font-family: "Poppins", sans-serif;
+  text-shadow: 0em 0.1em #dad8d8;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+/*PAGINA INDEX*/
+/*texto principal de todas las paginas.*/
+.textoPrincipal {
+  text-shadow: 0em 0.1em #4b4949;
+  text-align: center;
+  background-color: rgb(0, 0, 0);
+  color: rgb(237, 237, 237);
+  font-weight: 600;
+  font-size: large;
+  width: 100%;
+}
+
+/*Imagen principal en todas las paginas.*/
+.imagenPrincipal {
+  max-width: 100%;
+}
+
+/*fuente de la parte de calzado destacado*/
+.fuenteCalzadoDest {
+  font-size: 50px;
+  text-align: center;
+  font-weight: 600;
+  color: rgb(237, 237, 237);
+  font-family: "Bricolage Grotesque", sans-serif;
+}
+
+/*color del texto de carrousel*/
+.colorTextCarrousel {
+  color: rgb(237, 237, 237);
+}
+
+.colorNike {
+  color: #ffffff;
+}
+
+/*estilo de las cartas pag indx*/
+.cardStyle {
+  font-family: "Poppins", sans-serif;
+  text-shadow: 0em 0.1em #dad8d8;
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+}
+
+/*borde de todas las imagenes con zapatillas en index y en pagina sneakers*/
+.borderColor {
+  border: groove 5px rgb(35, 35, 112);
+}
+
+/*estilo de la fuente de "contacto en pagina index"*/
+.contactoStyle {
+  font-family: "Poppins", sans-serif;
+  text-shadow: 0em 0.2em #dad8d8;
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+}
+
+/*sneakers destacados en la pagina index*/
+.sneakersDest {
+  text-shadow: 0em 0.2em #dad8d8;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 20px;
+  align-items: center;
+  color: rgb(0, 0, 0);
+}
+
+/*seccion quienes somos en la pagina index*/
+.altoNosotros {
+  width: 350px;
+}
+
+.quienesSomos {
+  text-shadow: 0em 0.2em #dad8d8;
+  margin-top: 50px;
+  text-align: center;
+}
+
+/*Paginas Locales*/
+#baukerCapital {
+  margin-top: 20px;
+  font-size: 40px;
+  font-weight: 600;
+  text-shadow: 0em 0.1em #dad8d8;
+}
+
+.dudaContacto {
+  font-size: 20px;
+}
+
+/*Borde de las pagina "contacto"*/
+.borderColor2 {
+  border: solid 5px rgb(42, 42, 175);
+  border-radius: 4px;
+}
+
+/*Pagina "Nosotros"*/
+.colorQuienes {
+  color: rgb(95, 30, 157);
+  font-weight: 600;
+  text-shadow: 0em 0.1em #dad8d8;
+}
+
+.nosotrosAbout {
+  text-shadow: 0em 0.1em #dad8d8;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+/*medias queries para las paginas*/
+/* columna para celulares */
+breakpoint {
+  max-width: 100%;
+  display: inline-block;
+}
+
+/* columnas para tablets */
+@media (min-width: 420px) {
+  breakpoint {
+    max-width: 48%;
+  }
+}
+/* columnas para pantallas mas grandes*/
+@media (min-width: 760px) {
+  breakpoint {
+    max-width: 24%;
+  }
+}
+.sneakersPage {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  margin-bottom: 20px;
+  margin-left: 70px;
+}
+
+/*# sourceMappingURL=main.css.map */

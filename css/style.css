@@ -38,7 +38,7 @@ body {
   text-shadow: 0em 0.1em #4b4949;
   text-align: center;
   background-color: black;
-  color: white;
+  color: rgb(237, 237, 237);
   font-weight: bold;
   font-size: large;
   width: 100%;
@@ -85,7 +85,7 @@ body {
   font-family: "Poppins", sans-serif;
   text-shadow: 0em 0.2em #dad8d8;
   font-weight: 500;
-  color: black;
+  color: rgb(0, 0, 0);
 }
 
 /* columna para celulares */
@@ -118,16 +118,7 @@ breakpoint {
   color: black;
 }
 
-/*IMAGEN QUE TIENE UN TEXTO ADELANTE "QUIENES SOMOS EN INDEXHTML"*/
-#nosotrosImg {
-  width: 1200px;
-  height: 300px;
-  margin-left: 170px;
-  margin-top: 20px;
-  position: relative;
-  display: inline-block;
-  text-align: center;
-}
+/*"QUIENES SOMOS EN INDEXHTML"*/
 
 .altoNosotros {
   width: 350px;

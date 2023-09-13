@@ -1,0 +1,31 @@
+//mediasqueries
+
+
+/*medias queries para las paginas*/
+/* columna para celulares */
+breakpoint {
+    max-width: 100%;
+    display: inline-block;
+  }
+  
+  /* columnas para tablets */
+  @media (min-width: 420px) {
+    breakpoint {
+      max-width: 48%;
+    }
+  }
+  
+  /* columnas para pantallas mas grandes*/
+  @media (min-width: 760px) {
+    breakpoint {
+      max-width: 24%;
+    }
+  }
+  
+  .sneakersPage {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    margin-bottom: 20px;
+    margin-left: 70px;
+  }
