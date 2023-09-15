@@ -1,5 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@400;500;600;700;800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz@10..48&display=swap");
+.shadow-gral, .shadow-black, .shadow-secondary {
+  font-family: "Poppins", sans-serif;
+  text-shadow: 0em 0.1em #dad8d8;
+}
+
+.shadow-secondary {
+  text-shadow: 0em 0.2em #f5ebeb;
+}
+
+.shadow-black {
+  text-shadow: 0em 0.1em #111111;
+}
+
 /*estilo de la navbar*/
 /*logo de la navbar*/
 .navbarLogo {
@@ -18,7 +31,6 @@
 /*PAGINA INDEX*/
 /*texto principal de todas las paginas.*/
 .textoPrincipal {
-  text-shadow: 0em 0.1em #4b4949;
   text-align: center;
   background-color: rgb(0, 0, 0);
   color: rgb(237, 237, 237);
@@ -38,12 +50,11 @@
   text-align: center;
   font-weight: 600;
   color: rgb(237, 237, 237);
-  font-family: "Bricolage Grotesque", sans-serif;
 }
 
 /*color del texto de carrousel*/
 .colorTextCarrousel {
-  color: rgb(237, 237, 237);
+  color: rgb(255, 255, 255);
 }
 
 .colorNike {
@@ -65,15 +76,12 @@
 
 /*estilo de la fuente de "contacto en pagina index"*/
 .contactoStyle {
-  font-family: "Poppins", sans-serif;
-  text-shadow: 0em 0.2em #dad8d8;
   font-weight: 600;
   color: rgb(0, 0, 0);
 }
 
 /*sneakers destacados en la pagina index*/
-.sneakersDest {
-  text-shadow: 0em 0.2em #dad8d8;
+.nuestrosSneakers {
   font-weight: 600;
   text-align: center;
   margin-top: 20px;
@@ -87,7 +95,6 @@
 }
 
 .quienesSomos {
-  text-shadow: 0em 0.2em #dad8d8;
   margin-top: 50px;
   text-align: center;
 }

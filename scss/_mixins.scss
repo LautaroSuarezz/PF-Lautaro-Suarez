@@ -1,0 +1,16 @@
+//extend
+
+.shadow-gral{
+    font-family:  "Poppins", sans-serif;
+    text-shadow: 0em 0.1em #dad8d8;
+}
+
+.shadow-secondary{
+    @extend .shadow-gral;
+    text-shadow: 0em 0.2em #f5ebeb;
+}
+
+.shadow-black{
+    @extend .shadow-gral;
+    text-shadow: 0em 0.1em #111111;
+}
