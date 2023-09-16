@@ -21,11 +21,3 @@ breakpoint {
       max-width: 24%;
     }
   }
-  
-  .sneakersPage {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 40px;
-    margin-bottom: 20px;
-    margin-left: 70px;
-  }
