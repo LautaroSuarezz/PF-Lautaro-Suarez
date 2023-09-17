@@ -117,6 +117,22 @@
   border-radius: 4px;
 }
 
+.sneakersPage {
+  margin-bottom: 0%;
+  margin-top: 20px;
+  display: grid;
+  grid-template-areas: "snk1 snk2 snk3" "snk4 snk5 snk6" "snk7 snk8 snk9";
+}
+
+@media (max-width: 576px) and (min-width: 200px) {
+  .sneakersPage {
+    grid-template-areas: "snk1" "snk2" "snk3" "snk4" "snk5" "snk6" "snk7" "snk8" "snk9";
+  }
+  .card-img-top {
+    width: 300px;
+    height: 300px;
+  }
+}
 /*Pagina "Nosotros"*/
 .colorQuienes {
   color: rgb(95, 30, 157);
@@ -149,12 +165,40 @@ breakpoint {
     max-width: 24%;
   }
 }
-.sneakersPage {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 40px;
-  margin-bottom: 20px;
-  margin-left: 70px;
+.snk1 {
+  grid-area: snk1;
+}
+
+.snk2 {
+  grid-area: snk2;
+}
+
+.snk3 {
+  grid-area: snk3;
+}
+
+.snk4 {
+  grid-area: snk4;
+}
+
+.snk5 {
+  grid-area: snk5;
+}
+
+.snk6 {
+  grid-area: snk6;
+}
+
+.snk7 {
+  grid-area: snk7;
+}
+
+.snk8 {
+  grid-area: snk8;
+}
+
+.snk9 {
+  grid-area: snk9;
 }
 
 /*# sourceMappingURL=main.css.map */

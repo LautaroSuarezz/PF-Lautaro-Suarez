@@ -1,0 +1,33 @@
+
+.sneakersPage{
+  margin-bottom: 0%;
+  margin-top: 20px;
+  display: grid;
+  grid-template-areas: 
+  "snk1 snk2 snk3"
+  "snk4 snk5 snk6"
+  "snk7 snk8 snk9"
+  ;
+
+}
+
+@media (max-width:576px) and (min-width:200px){ 
+  .sneakersPage {
+    grid-template-areas: 
+    "snk1" 
+    "snk2"
+    "snk3" 
+    "snk4"
+    "snk5" 
+    "snk6"
+    "snk7" 
+    "snk8"
+    "snk9"
+    ;
+  }
+  .card-img-top{
+    width: 300px;
+    height: 300px;
+  }
+}
+
