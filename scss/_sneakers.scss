@@ -11,6 +11,10 @@
 
 }
 
+.sneakersPage1{
+  display: grid;
+}
+
 @media (max-width:576px) and (min-width:200px){ 
   .sneakersPage1 {
     grid-template-areas: 
