@@ -1,0 +1,26 @@
+.body404{
+    background-image: url(../img/404-error.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.button404{
+    margin-top: 450px;
+    margin-left: 250px;
+}
+
+.buttonstyle{
+    background-color: $colorButton;
+    font-size: 20px;
+    color: white;
+    border: 3px solid $colorButton;
+    border-radius: 10px;
+}
+
+.buttonstyle:hover{
+    cursor: pointer;
+    background-color: $colorHover;
+    border-color: $colorHover;
+}

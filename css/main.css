@@ -29,6 +29,11 @@
 }
 
 /*PAGINA INDEX*/
+/*body*/
+body {
+  overflow-x: hidden;
+}
+
 /*texto principal de todas las paginas.*/
 .textoPrincipal {
   text-align: center;
@@ -71,7 +76,7 @@
 
 /*borde de todas las imagenes con zapatillas en index y en pagina sneakers*/
 .borderColor {
-  border: groove 5px rgb(35, 35, 112);
+  border: groove 5px rgb(24, 23, 23);
 }
 
 /*estilo de la fuente de "contacto en pagina index"*/
@@ -107,16 +112,33 @@
   text-shadow: 0em 0.1em #dad8d8;
 }
 
+/*color de los botones en pagina index y sneakers*/
+.colorButton {
+  background-color: rgb(41, 13, 54);
+  border-color: rgb(41, 13, 54);
+}
+
+.hoverButton {
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.hoverButton:hover {
+  background-color: rgb(94, 11, 128);
+  border-color: rgb(94, 11, 128);
+}
+
 .dudaContacto {
   font-size: 20px;
 }
 
 /*Borde de las pagina "contacto"*/
 .borderColor2 {
-  border: solid 5px rgb(42, 42, 175);
+  border: solid 5px rgb(21, 17, 24);
   border-radius: 4px;
 }
 
+/*css de la pagina sneakers*/
 .sneakersPage {
   margin-bottom: 0%;
   margin-top: 20px;
@@ -138,16 +160,88 @@
   }
 }
 /*Pagina "Nosotros"*/
-.colorQuienes {
-  color: rgb(95, 30, 157);
-  font-weight: 600;
-  text-shadow: 0em 0.1em #dad8d8;
-}
-
 .nosotrosAbout {
   text-shadow: 0em 0.1em #dad8d8;
   margin-top: 10px;
   margin-bottom: 30px;
+}
+
+/*CSS DEL FOOTER EN TODAS LAS PAGINAS*/
+footer {
+  width: 100%;
+  position: absolute;
+  background-color: #0e0e0e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.logo {
+  height: 150px;
+  width: 200px;
+}
+
+.social-icons-container, .footer-menu-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+.social-icon {
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  border: 1px solid #090909;
+  background-image: url(../img/wpp.icono.png);
+  background-position: center;
+  background-size: 40%;
+  background-repeat: no-repeat;
+  margin: 1rem;
+}
+
+.social-icon:hover {
+  background-color: #7e7e7e;
+}
+
+.social-icon:nth-of-type(2) {
+  background-image: url(../img/ig.icono.png);
+}
+
+.social-icon:nth-of-type(3) {
+  background-image: url(../img/linkedinlogo-png.webp);
+}
+
+.social-icon:nth-of-type(4) {
+  background-image: url(../img/github-logo.png);
+}
+
+.footer-menu-container {
+  list-style-type: none;
+  color: #ffffff;
+  font-size: 18px;
+}
+
+.menu-item {
+  margin: 1rem 1.5rem;
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+.menu-item:hover {
+  opacity: 1;
+}
+
+.copyright {
+  color: #ffffff;
+  text-align: center;
+}
+
+.deco {
+  text-decoration: none;
+  color: #ffffff;
 }
 
 /*medias queries para las paginas*/
@@ -203,6 +297,33 @@ breakpoint {
 
 .snk9 {
   grid-area: snk9;
+}
+
+.body404 {
+  background-image: url(../img/404-error.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.button404 {
+  margin-top: 450px;
+  margin-left: 250px;
+}
+
+.buttonstyle {
+  background-color: rgb(41, 13, 54);
+  font-size: 20px;
+  color: white;
+  border: 3px solid rgb(41, 13, 54);
+  border-radius: 10px;
+}
+
+.buttonstyle:hover {
+  cursor: pointer;
+  background-color: rgb(94, 11, 128);
+  border-color: rgb(94, 11, 128);
 }
 
 /*# sourceMappingURL=main.css.map */

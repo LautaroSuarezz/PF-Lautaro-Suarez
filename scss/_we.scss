@@ -2,14 +2,85 @@
 
 /*Pagina "Nosotros"*/
 
-.colorQuienes{
-    color: $colorQuienes;
-    font-weight: $fontBold;
-    text-shadow: 0em 0.1em #dad8d8;
-}
-
 .nosotrosAbout{
     text-shadow: 0em 0.1em #dad8d8;
     margin-top: 10px;
     margin-bottom: 30px;
+}
+
+/*CSS DEL FOOTER EN TODAS LAS PAGINAS*/
+ footer{
+    width: 100%;
+    position: absolute;
+    background-color: #0e0e0e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo{
+    height: 150px;
+    width: 200px;
+}
+
+.social-icons-container, .footer-menu-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}
+
+.social-icon{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    border: 1px solid #090909;
+    background-image: url(../img/wpp.icono.png);
+    background-position: center;
+    background-size: 40%;
+    background-repeat: no-repeat;
+    margin:1rem;
+}
+
+.social-icon:hover{
+    background-color: #7e7e7e;
+}
+
+.social-icon:nth-of-type(2){
+    background-image: url(../img/ig.icono.png);
+}
+.social-icon:nth-of-type(3){
+    background-image: url(../img/linkedinlogo-png.webp);
+}
+.social-icon:nth-of-type(4){
+    background-image: url(../img/github-logo.png);
+}
+
+
+.footer-menu-container{
+    list-style-type: none;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.menu-item{
+    margin: 1rem 1.5rem;
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.menu-item:hover{
+    opacity: 1;
+}
+
+.copyright{
+    color: #ffffff;
+    text-align: center;
+}
+
+.deco{
+    text-decoration: none;
+    color: #ffffff;
 }
